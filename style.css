@@ -12,7 +12,7 @@ h1 {
     padding-left: 100px;
 }
 
-#row {
+.row {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -30,6 +30,7 @@ button {
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     border-radius: 10px;
+    border: 3px solid whitesmoke;
     padding: 10px;
     margin: 30px 0 30px 100px;
 }
@@ -37,4 +38,5 @@ button {
 button:hover {
     transform: translateY(0.15em);
     color: #252525;
+    border: 3px solid #252525;
 }
